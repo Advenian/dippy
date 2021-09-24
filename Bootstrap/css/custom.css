@@ -1,0 +1,219 @@
+.btn-outline-dark{
+    background: white;
+    border: 1;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 250ms ease;
+}
+.btn-outline-dark:hover{
+background: black;
+
+
+}
+.header h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #2f281e;
+}
+.header p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.btn-outline-secondary{
+    background: black;
+    border: 1;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-color: black;
+    transition: 250ms ease;
+    
+}
+.btn-outline-secondary:hover{
+    background: white;
+    color: black;
+    
+}
+.navbar-nav .nav-link{
+    color: #2f281e;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .btn-outline-secondary, .btn-outline-dark, .btn-outline-primary{
+    margin-top: 10px;
+    margin-left: 0 !important;
+    }
+}
+
+.btn-outline-primary{
+    background: white;
+    border: 1;
+    padding: 15px 10px 15px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border-color: white;
+    transition: 250ms ease;
+}
+.btn-outline-primary:hover{
+    background: white ;
+    border: 1;
+    padding: 15px 10px 15px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border-color: black;
+    transform: scale(1);
+    margin-left: 10px;
+}
+.feature {
+    background-image: url("../img/Bg.png");
+    padding-bottom:80px ;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: auto; 
+    margin-bottom: 0px;
+    
+    
+      
+}
+.card {
+    border: 0;
+    background-color: transparent;
+    max-width: 35ch;
+    transition: transform 250ms ease;
+    text-decoration: none;
+    min-height: 200px;
+    
+    
+}
+.card:hover{
+    box-shadow: 0px 0px 8px ;
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 768px){
+    .card{
+        margin-left: 0px;
+    }
+}
+.href{
+    text-decoration: none;
+}
+.btn-outline-primary{
+    max-height: 57px;
+}
+.bi, .bi cursor{
+    border: 1;
+    border-color: black;
+}
+.btn-outline-warning{
+    border: 0;
+    border-radius: 12px;
+    padding-left:15px ;
+    padding-right:15px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+@media only screen and (max-width: 768px){
+    .feature{
+        background: none;
+    }
+}
+.bi-check-square-fill{
+    border-color: orange;
+    font-size: 30px;
+    border: 0;
+    border-radius: 12px;
+    color: orange;
+    
+    
+}
+@media only screen and (max-width: 768px){
+    .col{
+        margin-left: 0px !important;
+    }
+}
+.about {
+    background-image: url("../img/bg10.png");
+    padding-bottom:50px ;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: auto; 
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+.btn-warning{
+    color: white;
+    font-weight: bold;
+    transition: 250ms ease;
+}
+.btn-warning:hover{
+    color: white;
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 768px){
+    .about {
+        background-image: url("../img/bg10.png");
+        padding-bottom:0px ;
+        background-repeat: repeat-x;
+        background-position: center;
+        background-size: 98%; 
+        margin-bottom: 0px;
+        padding-top: 0px;
+        
+    }
+}
+#midcolumn{
+    min-width: 60ch;
+}
+@media only screen and (max-width: 768px){
+    #midcolumn{
+        min-width: auto;
+    }
+}
+#rowone{
+  
+}
+#cardones {
+    border: 0;
+    background-color: white;
+    max-width: 35ch;
+    transition: 250ms ease;
+    text-decoration: none;
+    min-height: 200px;
+    padding-left: 0 px;
+    min-width: 0px;
+    
+    
+}
+#cardones:hover{
+    box-shadow: 0px 0px 8px ;
+    margin-top: 30px;
+    
+}
+#images10{
+    align-self: center;
+}
+#selected{
+    color: orange;
+}
+@media only screen and (max-width: 768px){
+    #selected{
+        color: black !important;
+    }
+}
+.bi-circle-fill{
+    font-size: 15px;
+}
+.footer{
+    text-decoration: none;
+}
+#footerlinks{
+    text-decoration: none;
+    color: #61564a;
+}
+
